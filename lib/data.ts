@@ -44,7 +44,7 @@ export const experiencesData = [
     title: "MS in Computer Science - Rutgers University",
     location: "New Brunswick, NJ, USA",
     description:
-      "I completed my four-year degree (BE) in Computer Engineering and immediately embarked on my professional journey at Deutsche Bank, where I began my career as a Software Engineer.",
+      "Currently pursuing a Master of Science in Computer Science at Rutgers University",
     icon: React.createElement(LuGraduationCap),
     date: "Sep 2022 - Present",
   },
