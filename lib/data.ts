@@ -2,9 +2,15 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import walkthesewaysImg from "@/public/walk-these-ways.png";
+import qasystem from "@/public/qasystem.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import musicrecsy from "@/public/musicrecsy.png";
+import ytanalysis from "@/public/ytanalysis.png";
+import zest from "@/public/zest.png";
+import audiophile from "@/public/audiophile.png";
+import mazesolver from "@/public/mazesolver.png";
+import covidtracker from "@/public/covidtracker.png";
 
 export const links = [
   {
@@ -35,53 +41,81 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "MS in Computer Science - Rutgers University",
+    location: "New Brunswick, NJ, USA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I completed my four-year degree (BE) in Computer Engineering and immediately embarked on my professional journey at Deutsche Bank, where I began my career as a Software Engineer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Sep 2022 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "Software Engineer - Deutsche Bank",
+    location: "Pune, MH, India",
+    description:"At Deutsche Bank, I developed and optimized machine learning-based invoice classification system and improved big data processing using technologies like PySpark, Apache Hadoop, and Apache Hive. My role also included leading data migration projects and enhancing data pipeline efficiency through innovative solutions.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "July 2019 - July 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "BE in Computer Engineering - Mumbai University",
+    location: "Mumbai, MH, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I completed my four-year degree (BE) in Computer Engineering and immediately embarked on my professional journey at Deutsche Bank, where I began my career as a Software Engineer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Aug 2015 - May 2019",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "Walk these ways",
+    description:"Implemented reinforcement learning-based locomotion policy for a robotic dog in Isaac Gym, focusing on efficient and collision-free navigation",
+      
+    tags: ["PyTorch", "Isaac Gym Simulator", "Reinforcement Learning"],
+    imageUrl: walkthesewaysImg,
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "Question Answering System",
+    description:"Question-Answering system for low-resource languages, enhancing performance with fine-tuned BERT models​",
+    tags: ["ReactJS", "PyTorch", "BERT", "Natural Language Processing"],
+    imageUrl: qasystem,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "Music Recommender System",
+    description:"Music recommendation system using Annoy and TensorFlow, achieving fast and accurate music suggestions​",
+    tags: ["Tensorflow", "Python", "ANNOY", "Docker"],
+    imageUrl: musicrecsy,
   },
+  {
+    title: "Youtube Data Analysis",
+    description:"Analyzed a large YouTube trends dataset, transforming data and developing AWS Glue crawlers & ETL jobs​",
+    tags: ["Python", "Pandas", "SQL", "AWS"],
+    imageUrl: ytanalysis,
+  },
+  {
+    title: "ZEST",
+    description:"Collaborative productivity app with features like video calling, note-taking, chat, project planning",
+    tags: ["ReactJS", "ExpressJS", "NodeJS", "Firebase", "WebRTC", "JavaScript", "Material UI", "HTML", "CSS"],
+    imageUrl: zest,
+  },
+  {
+    title: "Audiophile Delight",
+    description:"Video-to-MP3 conversion system with RabbitMQ, including a real-time notification system and user authentication",
+    tags: ["Python", "Kubernetes", "MySQL", "JWT", "RabbitMQ", "Flask", "Docker"],
+    imageUrl: audiophile,
+  },
+  {
+    title: "Maze Solver",
+    description:"Web-based maze solver implementing various A-star algorithms (repeated, backward, and adaptive) using React for frontend and Python (Flask) backend.",
+    tags: ["ReactJS", "JavaScript", "Python"],
+    imageUrl: mazesolver,
+  },
+  {
+    title: "Covid Tracker",
+    description:"COVID-19 tracking website providing global and country-wise statistics with map visualization of affected areas",
+    tags: ["ReactJS", "JavaScript", "Context API", "React Hooks", "Material UI", "Chart.js"],
+    imageUrl: covidtracker,
+  },
+  
 ] as const;
 
 export const skillsData = [

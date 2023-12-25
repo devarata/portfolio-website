@@ -19,31 +19,16 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+    Currently pursuing a <span className="font-medium">Master of Science in Computer Science</span> at Rutgers University, graduating in May 2024, I have navigated through diverse roles in <span className="font-medium">software development, machine learning, and data engineering</span>. 
+    My academic journey, starting with a Bachelor's in Computer Engineering from Mumbai University, has been complemented by professional experiences like my impactful role as a <span className="italic">Senior Analyst</span> at Deutsche Bank and a Research Assistant at Rutgers. I <span className="underline">thrive</span> on the challenges of tech, specializing in <span className="font-medium">Python, C++, Big Data technologies, and machine learning.</span>  With a profound interest in all things <span className="italic">data-related</span>, I have efficiently utilized <span className="font-medium">PySpark, Apache Hadoop, and Apache Hive</span> in managing large-scale data systems. My goal is to find a <span className="font-medium">full-time role</span> where I can continue to grow and contribute significantly in the field of technology.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+<p>
+    <span className="italic">Outside of my academic and professional life</span>, 
+     I take great pleasure in <span className="italic">listening to bollywood music and singing</span> 
+     .
+</p>
+
     </motion.section>
   );
 }
