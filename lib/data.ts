@@ -44,7 +44,7 @@ export const experiencesData = [
     title: "MS in Computer Science - Rutgers University",
     location: "New Brunswick, NJ, USA",
     description:
-      "Currently pursuing a Master of Science in Computer Science at Rutgers University",
+      "Currently pursuing Master of Science in Computer Science at Rutgers University",
     icon: React.createElement(LuGraduationCap),
     date: "Sep 2022 - Present",
   },
