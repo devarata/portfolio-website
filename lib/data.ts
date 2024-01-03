@@ -44,7 +44,7 @@ export const experiencesData = [
     title: "MS in Computer Science - Rutgers University",
     location: "New Brunswick, NJ, USA",
     description:
-      "Currently pursuing a Master of Science in Computer Science at Rutgers University, graduating in May 2024 and actively seeking full-time opportunities",
+      "Currently pursuing Master of Science in Computer Science at Rutgers University, graduating in May 2024 and actively seeking full-time opportunities",
     icon: React.createElement(LuGraduationCap),
     date: "Sep 2022 - Present",
   },
@@ -65,14 +65,14 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+const projectsData = [
   {
     title: "Walk these ways",
-    description:"Implemented reinforcement learning-based locomotion policy for a robotic dog in Isaac Gym, focusing on efficient and collision-free navigation",
-      
+    description:"Reinforcement learning-based locomotion policy for a robotic dog in Isaac Gym, focusing on efficient and collision-free navigation",
     tags: ["PyTorch", "Isaac Gym Simulator", "Reinforcement Learning"],
     imageUrl: walkthesewaysImg,
     githubUrl:"https://github.com/devarata/walk-these-ways",
+    projectStartDate: "2023-11-08",
   },
   {
     title: "Question Answering System",
@@ -80,6 +80,7 @@ export const projectsData = [
     tags: ["ReactJS", "PyTorch", "BERT", "Natural Language Processing"],
     imageUrl: qasystem,
     githubUrl:"https://github.com/devarata/Question-Answering-System",
+    projectStartDate: "2023-03-01",
   },
   {
     title: "Music Recommender System",
@@ -87,13 +88,15 @@ export const projectsData = [
     tags: ["Tensorflow", "Python", "ANNOY", "Docker"],
     imageUrl: musicrecsy,
     githubUrl:"https://github.com/devarata/Music-Recommender-System",
+    projectStartDate: "2021-07-01",
   },
   {
     title: "Youtube Data Analysis",
-    description:"Analyzed a large YouTube trends dataset, transforming data and developing AWS Glue crawlers & ETL jobs​",
+    description:"Analyzed YouTube trends dataset, transforming data and developing AWS Glue crawlers & ETL jobs​",
     tags: ["Python", "Pandas", "SQL", "AWS"],
     imageUrl: ytanalysis,
     githubUrl:"https://github.com/devarata/youtube-analysis-project",
+    projectStartDate: "2023-06-01",
   },
   {
     title: "ZEST",
@@ -101,13 +104,15 @@ export const projectsData = [
     tags: ["ReactJS", "ExpressJS", "NodeJS", "Firebase", "WebRTC", "JavaScript", "Material UI", "HTML", "CSS"],
     imageUrl: zest,
     githubUrl:"https://github.com/devarata/ZEST",
+    projectStartDate: "2020-08-01",
   },
   {
     title: "Audiophile Delight",
     description:"Video-to-MP3 conversion system with RabbitMQ, including a real-time notification system and user authentication",
     tags: ["Python", "Kubernetes", "MySQL", "JWT", "RabbitMQ", "Flask", "Docker"],
     imageUrl: audiophile,
-    githubUrl:"",
+    githubUrl:"https://github.com/devarata/audiophile-delight",
+    projectStartDate: "2023-06-01",
   },
   {
     title: "Maze Solver",
@@ -115,6 +120,7 @@ export const projectsData = [
     tags: ["ReactJS", "JavaScript", "Python"],
     imageUrl: mazesolver,
     githubUrl:"https://github.com/devarata/a_star_maze_solver",
+    projectStartDate: "2022-11-01",
   },
   {
     title: "Covid Tracker",
@@ -122,9 +128,14 @@ export const projectsData = [
     tags: ["ReactJS", "JavaScript", "Context API", "React Hooks", "Material UI", "Chart.js"],
     imageUrl: covidtracker,
     githubUrl:"https://github.com/devarata/covid-tracker",
+    projectStartDate: "2020-07-25",
   },
   
-] as const;
+] ;
+
+export const sortedProjectsData = projectsData.sort((a, b) => {
+  return b.projectStartDate.localeCompare(a.projectStartDate);
+});
 
 export const skillsData = [
   "Python",
