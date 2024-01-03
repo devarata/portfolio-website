@@ -73,6 +73,7 @@ const projectsData = [
     imageUrl: walkthesewaysImg,
     githubUrl:"https://github.com/devarata/walk-these-ways",
     projectStartDate: "2023-11-08",
+    tag:"Machine Learning",
   },
   {
     title: "Question Answering System",
@@ -81,6 +82,7 @@ const projectsData = [
     imageUrl: qasystem,
     githubUrl:"https://github.com/devarata/Question-Answering-System",
     projectStartDate: "2023-03-01",
+    tag:"Machine Learning",
   },
   {
     title: "Music Recommender System",
@@ -89,6 +91,7 @@ const projectsData = [
     imageUrl: musicrecsy,
     githubUrl:"https://github.com/devarata/Music-Recommender-System",
     projectStartDate: "2021-07-01",
+    tag:"Machine Learning",
   },
   {
     title: "Youtube Data Analysis",
@@ -97,6 +100,7 @@ const projectsData = [
     imageUrl: ytanalysis,
     githubUrl:"https://github.com/devarata/youtube-analysis-project",
     projectStartDate: "2023-06-01",
+    tag:"Data Analysis",
   },
   {
     title: "ZEST",
@@ -105,6 +109,7 @@ const projectsData = [
     imageUrl: zest,
     githubUrl:"https://github.com/devarata/ZEST",
     projectStartDate: "2020-08-01",
+    tag:"Software Engineering",
   },
   {
     title: "Audiophile Delight",
@@ -113,6 +118,7 @@ const projectsData = [
     imageUrl: audiophile,
     githubUrl:"https://github.com/devarata/audiophile-delight",
     projectStartDate: "2023-06-01",
+    tag:"Software Engineering",
   },
   {
     title: "Maze Solver",
@@ -121,6 +127,7 @@ const projectsData = [
     imageUrl: mazesolver,
     githubUrl:"https://github.com/devarata/a_star_maze_solver",
     projectStartDate: "2022-11-01",
+    tag:"Software Engineering",
   },
   {
     title: "Covid Tracker",
@@ -129,6 +136,7 @@ const projectsData = [
     imageUrl: covidtracker,
     githubUrl:"https://github.com/devarata/covid-tracker",
     projectStartDate: "2020-07-25",
+    tag:"Software Engineering",
   },
   
 ] ;
